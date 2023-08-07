@@ -1,0 +1,244 @@
+.profile-container1 {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-section1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-section1 label {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.profile-section1 .info1 {
+  border: 1px solid #00483d;
+  border-radius: 4px;
+  padding: 5px;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.profile-section1 .edit-field1 {
+  margin-left: 50px;
+}
+
+.profile-section1 .edit-button1 {
+  background-color: #00483d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Màu nền và hover */
+#update-button1,
+#edit-button1{
+  background-color: #00483d;
+  color: white;
+}
+
+#update-button1:hover,
+#edit-button1:hover{
+  background-color: #ff8c00;
+}
+
+.profile-section1 .edit-button1:hover {
+  background-color: #ff8c00;
+}
+
+.profile-section1 .edit-input1 {
+  display: none;
+  margin-top: 10px;
+}
+
+.profile-section1 .edit-input1 .new-info1 {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.visible1 {
+  display: block;
+}
+
+.profile-section1 .update-button1 {
+  background-color: #00483d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-section1 .update-button1:hover {
+  background-color: #ff8c00;
+}
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content1 {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  position: relative;
+}
+
+.modal1 .close1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal1 .close1:hover {
+  color: #555;
+}
+
+.modal1 h2 {
+  margin-bottom: 15px;
+}
+
+.modal1 form {
+  margin-bottom: 15px;
+}
+
+.modal1 label.label-change-pass1 {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal1 input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.modal1 .submit-button1 {
+  background-color: #00483d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal1 .submit-button1:hover {
+  background-color: #ff8c00;
+}
+
+.confirmChangeModal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.confirmChangeModal1 .modal-content1 {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  position: relative;
+}
+
+.confirmChangeModal1 .confirm-modal-close1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.confirmChangeModal1 .confirm-modal-close1:hover {
+  color: #555;
+}
+
+.confirmChangeModal1 p {
+  margin-bottom: 15px;
+}
+
+.confirmChangeModal1 .modal-buttons1 {
+  text-align: center;
+}
+
+.confirmChangeModal1 .modal-button1 {
+  background-color: #00483d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.confirmChangeModal1 .modal-button1:hover {
+  background-color: #ff8c00;
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 600px) {
+  .profile-container1 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .profile-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-section1 .edit-field1 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .profile-section1 .edit-button1,
+  .profile-section1 .update-button1 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .modal-content1 {
+    margin: 30% auto;
+  }
+}
+
+/* Styles for medium and large screens */
+@media only screen and (min-width: 601px) {
+  /* Keep your existing styles for medium and large screens */
+}
+
+/* CSS cho phần hiển thị và ẩn */
+.hidden {
+  display: none;
+}
